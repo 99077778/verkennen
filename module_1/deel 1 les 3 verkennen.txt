@@ -1,0 +1,39 @@
+
+
+1. Met welke query kun je de creatures laten zien die voldoen aan ‘Killer Bee’ of ‘Orc’?
+select * from creature
+where name in ('Killer Bee', 'Orc');
+
+
+
+2. Met welke query kun je de dieren laten zien die voldoen aan snelheid 6 en verdediging 5?
+select * from animal
+where speed = 6 and defense = 5;
+
+
+
+3. Met welke query kun je het aantal dieren laten zien die voldoen aan ‘Wolf’ of ‘Bear’ of ‘Eagle’
+select * from animal
+where type in ('Wolf', 'Bear', 'Eagle');
+
+
+
+4. Met welke query kun je bepalen welke tijger het snelst is?
+select * from animal
+where type = 'Tiger' order by speed desc;
+
+
+
+5. Met welke query kun je de personen laten zien waarvoor geldt attack, defense en agility voor alle drie de waarde gelijk aan 10?
+select * from person
+where attack = 10 and defense = 10 and agility = 10;
+
+
+
+6. Met welke query kun je alle hero’s laten zien met intelligence anders dan 30 of 90?
+select * from hero
+where intelligence <> 30 and intelligence <> 90
+
+
+aleen voor die <> heb ik aan chat gpt gevraagt
+

@@ -1,0 +1,87 @@
+{
+    "query": "select region from city",
+    "resultcount": 27,
+    "result": [
+        {
+            "region": 4
+        },
+        {
+            "region": 4
+        },
+        {
+            "region": 4
+        },
+        {
+            "region": 4
+        },
+        {
+            "region": 4
+        },
+        {
+            "region": 4
+        },
+        {
+            "region": 3
+        },
+        {
+            "region": 3
+        },
+        {
+            "region": 3
+        },
+        {
+            "region": 3
+        },
+        {
+            "region": 3
+        },
+        {
+            "region": 5
+        },
+        {
+            "region": 5
+        },
+        {
+            "region": 5
+        },
+        {
+            "region": 5
+        },
+        {
+            "region": 5
+        },
+        {
+            "region": 5
+        },
+        {
+            "region": 5
+        },
+        {
+            "region": 1
+        },
+        {
+            "region": 1
+        },
+        {
+            "region": 1
+        },
+        {
+            "region": 1
+        },
+        {
+            "region": 2
+        },
+        {
+            "region": 2
+        },
+        {
+            "region": 2
+        },
+        {
+            "region": 2
+        },
+        {
+            "region": 2
+        }
+    ]
+}

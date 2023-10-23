@@ -1,0 +1,9 @@
+{
+    "query": "select region from city where id = 6",
+    "resultcount": 1,
+    "result": [
+        {
+            "region": 4
+        }
+    ]
+}

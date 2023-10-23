@@ -1,0 +1,225 @@
+{
+    "query": "select experience from quest",
+    "resultcount": 73,
+    "result": [
+        {
+            "experience": 300
+        },
+        {
+            "experience": 420
+        },
+        {
+            "experience": 350
+        },
+        {
+            "experience": 500
+        },
+        {
+            "experience": 490
+        },
+        {
+            "experience": 290
+        },
+        {
+            "experience": 510
+        },
+        {
+            "experience": 480
+        },
+        {
+            "experience": 350
+        },
+        {
+            "experience": 450
+        },
+        {
+            "experience": 800
+        },
+        {
+            "experience": 720
+        },
+        {
+            "experience": 550
+        },
+        {
+            "experience": 970
+        },
+        {
+            "experience": 1100
+        },
+        {
+            "experience": 965
+        },
+        {
+            "experience": 960
+        },
+        {
+            "experience": 480
+        },
+        {
+            "experience": 1500
+        },
+        {
+            "experience": 1220
+        },
+        {
+            "experience": 1125
+        },
+        {
+            "experience": 680
+        },
+        {
+            "experience": 1600
+        },
+        {
+            "experience": 1700
+        },
+        {
+            "experience": 725
+        },
+        {
+            "experience": 1300
+        },
+        {
+            "experience": 2500
+        },
+        {
+            "experience": 2500
+        },
+        {
+            "experience": 1875
+        },
+        {
+            "experience": 1620
+        },
+        {
+            "experience": 1235
+        },
+        {
+            "experience": 950
+        },
+        {
+            "experience": 1940
+        },
+        {
+            "experience": 1745
+        },
+        {
+            "experience": 1460
+        },
+        {
+            "experience": 3000
+        },
+        {
+            "experience": 2200
+        },
+        {
+            "experience": 1950
+        },
+        {
+            "experience": 1500
+        },
+        {
+            "experience": 2650
+        },
+        {
+            "experience": 3500
+        },
+        {
+            "experience": 950
+        },
+        {
+            "experience": 950
+        },
+        {
+            "experience": 2250
+        },
+        {
+            "experience": 2300
+        },
+        {
+            "experience": 1800
+        },
+        {
+            "experience": 500
+        },
+        {
+            "experience": 1950
+        },
+        {
+            "experience": 1850
+        },
+        {
+            "experience": 1250
+        },
+        {
+            "experience": 1600
+        },
+        {
+            "experience": 2100
+        },
+        {
+            "experience": 2350
+        },
+        {
+            "experience": 2200
+        },
+        {
+            "experience": 2350
+        },
+        {
+            "experience": 4500
+        },
+        {
+            "experience": 2590
+        },
+        {
+            "experience": 3500
+        },
+        {
+            "experience": 3200
+        },
+        {
+            "experience": 3100
+        },
+        {
+            "experience": 2850
+        },
+        {
+            "experience": 3650
+        },
+        {
+            "experience": 3650
+        },
+        {
+            "experience": 3475
+        },
+        {
+            "experience": 3280
+        },
+        {
+            "experience": 3640
+        },
+        {
+            "experience": 3850
+        },
+        {
+            "experience": 4000
+        },
+        {
+            "experience": 3950
+        },
+        {
+            "experience": 3500
+        },
+        {
+            "experience": 1250
+        },
+        {
+            "experience": 4000
+        },
+        {
+            "experience": 8000
+        }
+    ]
+}

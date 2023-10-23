@@ -1,0 +1,25 @@
+
+
+1. Met welke query kan je alle personen laten zien de beginnen met de letter B?
+select * from person
+where name like 'B%';
+
+
+
+2. Met welke query kan je alle dieren laten zien waar de letter a in zit?
+select * from animal
+where type like '%a%';
+
+
+
+3. Met welke query kan je alle dieren laten zien waar achter de letter e een letter a in zit?
+select * from animal
+where type like '%ea%';
+
+
+
+4. Met welke query kan je alle wapens laten zien die eindigen op de letter d?
+select * from weapon
+where name like'%d';
+
+

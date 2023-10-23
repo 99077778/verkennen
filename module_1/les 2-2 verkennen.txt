@@ -1,0 +1,40 @@
+
+
+1. Met welke query laat je alle personen zien gesorteerd op naam (ascending)?
+select * from person order by name
+
+
+
+2. Met welke query laat je alle steden zien gesorteerd op naam (descending)?
+select * from city order by name desc
+
+
+
+3. Met welke query kun je de eerste 10 personen laten zien?
+select * from person
+limit 10;
+
+
+
+4. Met welke query kun je de 5 duurste wapens laten zien?
+select * from weapon order by price desc
+limit 5;
+
+
+
+5. Met welke query kun je de beste 3 wapens laten zien?
+select * from weapon order by attack desc
+limit 3;
+
+
+
+6. Met welke query kun je laten zien welke verschillende dieren er bestaan?
+select distinct type from animal
+
+
+
+7. Met welke query kun je laten zien welke professions er zijn bij de NPC’s?
+select distinct profession from npc
+
+
+

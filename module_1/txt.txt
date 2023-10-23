@@ -1,0 +1,1 @@
+Seleck kolomnaam, kolomnaam of * from tabelnaam where conditie : id > 3 (veldnaam verglijking waarde)

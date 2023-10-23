@@ -1,0 +1,9 @@
+{
+    "query": "select count(type) from animal\nlimit 107;",
+    "resultcount": 1,
+    "result": [
+        {
+            "count(type)": 105
+        }
+    ]
+}

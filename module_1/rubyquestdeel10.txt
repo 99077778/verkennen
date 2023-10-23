@@ -1,0 +1,25 @@
+
+
+
+1. Met welke query laat je zien wat het gemiddelde aantal ervaringspunten is 
+die je per quest kan verdienen?
+
+select avg(experience) from quest
+
+
+
+
+2. Met welke query laat je zien wat het totaal aantal goud dat je met 
+niet opgepakte quests kunt verdienen?
+
+select avg(gold) from quest where holder = 0
+
+
+
+
+3. Met welke query laat je zien de hoeveelheid en wat de gemiddelde prijs en
+aanvalskracht is van alle wapens met het woord ‘sword’ er in?
+
+select count(*), avg(price), avg(attack) from weapon
+where name like '%word%';
+

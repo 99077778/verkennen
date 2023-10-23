@@ -1,0 +1,27 @@
+
+
+1. Maak een query die alleen de persoon met id 7 laat zien
+select * from person where id = 7
+
+
+2. Bij welke opdracht(en) krijg je geen geld?
+select * from quest where gold = 0
+
+= 57
+
+
+
+3. Met welke query laat je alleen de steden uit regio 1 zien?
+select * from city where region = 1
+
+
+4. Met welke query laat je alleen de schapen zien die er in database te vinden zijn?
+select * from animal where type = 'Sheep'
+
+
+
+5. Met welke query kan je nagaan welke dieren zijn gevangen als huisdier?
+select * from animal where owner > 0
+
+
+

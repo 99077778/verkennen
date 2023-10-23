@@ -1,0 +1,65 @@
+select * from courses where has_exame and is_avo; #09:40:14@dvc-sd.db
+select * from courses where name = 'Burgerschap' and 'Rekenen'; #09:45:44@dvc-sd.db
+SELECT * FROM courses
+WHERE name IN ('Burgerschap', 'Rekenen');
+; #09:49:23@dvc-sd.db
+select * from creature; #10:00:17@rubyquest.db
+select * from creature
+where name in ('Killer Bee', 'Orc');; #10:01:07@rubyquest.db
+select * from animal
+; #10:02:29@rubyquest.db
+select * from animal
+where speed = 6 and defense = 5
+; #10:03:07@rubyquest.db
+select * from animal
+where speed = 6 and defense = 5;
+; #10:03:24@rubyquest.db
+select * from animal
+; #10:03:40@rubyquest.db
+select * from animal
+where type in ('Wolf', 'Bear', 'Eagle');; #10:04:24@rubyquest.db
+select * from animal
+; #10:05:12@rubyquest.db
+select * from animal
+where type = 'Tiger' order by speed; #10:05:51@rubyquest.db
+select * from animal
+where type = 'Tiger' order by speed desc
+; #10:05:56@rubyquest.db
+select * from person; #10:06:32@rubyquest.db
+select * from person
+where attack = 10 and defense = 10 and agility = 10;; #10:09:53@rubyquest.db
+select * from hero; #10:10:33@rubyquest.db
+select * from hero; #10:10:40@rubyquest.db
+select * from hero; #10:10:40@rubyquest.db
+select * from hero; #10:10:41@rubyquest.db
+select * from hero; #10:10:41@rubyquest.db
+select * from hero; #10:10:41@rubyquest.db
+select * from hero; #10:10:41@rubyquest.db
+select * from hero; #10:10:41@rubyquest.db
+select * from hero; #10:10:41@rubyquest.db
+select * from hero; #10:11:06@rubyquest.db
+select * from hero
+where intelligence <> 30 and intelligence <> 90; #10:13:07@rubyquest.db
+select * from weapon; #10:16:53@rubyquest.db
+select * from weapon
+where price between 100 and 1000; #10:17:54@rubyquest.db
+select * from weapon
+where attack between 300 and 600; #10:18:28@rubyquest.db
+select * from animal; #10:18:55@rubyquest.db
+select * from animal
+where defense between 7 and 9; #10:19:42@rubyquest.db
+select * from person; #10:23:37@rubyquest.db
+select * from person
+where name like 'B%'; #10:24:08@rubyquest.db
+select * from person
+where name like 'B%';; #10:24:14@rubyquest.db
+select * from animal; #10:24:29@rubyquest.db
+select * from animal
+where type like '%a%'; #10:24:52@rubyquest.db
+select * from animal
+where type like '%ea%'; #10:25:19@rubyquest.db
+select * from weapon; #10:25:51@rubyquest.db
+select * from weapon
+where name like'%d'; #10:26:11@rubyquest.db
+select * from weapon
+where name like'%d';; #10:26:15@rubyquest.db

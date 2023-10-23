@@ -1,0 +1,29 @@
+
+1. Met welke query haal je alle helden op uit de database?
+select * from hero
+
+
+2. Met welke query haal je alle personen op uit de database?
+select * from person
+
+
+3. Met welke query haal je alle opdrachten (taken) op uit de database?
+select * from quest
+
+
+4. Met welke query haal je alle wezens op uit de database?
+select * from creature
+
+
+5. Met welke query haal je alleen alle namen van bescherming op uit de database?
+select name from armor
+
+
+6. Met welke query haal je alleen alle namen en aanvalskracht van wapens op uit de database?
+select name, attack from weapon
+
+
+7. Met welke query haal je alleen alle namen en gezondheid van alle wezens op uit de database?
+select name, health from creature
+
+

@@ -1,0 +1,346 @@
+{
+    "query": "SELECT id, type, speed\nFROM animal AS t1\nWHERE speed = (\n    SELECT MAX(speed)\n    FROM animal AS t2\n    WHERE t1.type = t2.type\n);\n",
+    "resultcount": 68,
+    "result": [
+        {
+            "id": 1,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 2,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 3,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 4,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 5,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 6,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 7,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 8,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 9,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 10,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 11,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 12,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 13,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 14,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 15,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 16,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 17,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 18,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 19,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 20,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 21,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 22,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 23,
+            "type": "Sheep",
+            "speed": 3
+        },
+        {
+            "id": 36,
+            "type": "Wolf",
+            "speed": 7
+        },
+        {
+            "id": 40,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 41,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 42,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 43,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 44,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 45,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 46,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 47,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 48,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 49,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 50,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 51,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 52,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 53,
+            "type": "Bear",
+            "speed": 5
+        },
+        {
+            "id": 59,
+            "type": "Eagle",
+            "speed": 9
+        },
+        {
+            "id": 77,
+            "type": "Tiger",
+            "speed": 10
+        },
+        {
+            "id": 78,
+            "type": "Sea Snake",
+            "speed": 10
+        },
+        {
+            "id": 79,
+            "type": "Sea Snake",
+            "speed": 10
+        },
+        {
+            "id": 80,
+            "type": "Sea Snake",
+            "speed": 10
+        },
+        {
+            "id": 81,
+            "type": "Sea Snake",
+            "speed": 10
+        },
+        {
+            "id": 83,
+            "type": "Sea Snake",
+            "speed": 10
+        },
+        {
+            "id": 84,
+            "type": "Sea Snake",
+            "speed": 10
+        },
+        {
+            "id": 85,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 86,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 87,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 88,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 89,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 90,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 91,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 92,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 93,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 94,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 95,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 96,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 98,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 99,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 100,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 101,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 102,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 103,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 104,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 105,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 106,
+            "type": "Giant Rat",
+            "speed": 6
+        },
+        {
+            "id": 107,
+            "type": "Giant Rat",
+            "speed": 6
+        }
+    ]
+}

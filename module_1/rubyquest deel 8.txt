@@ -1,0 +1,26 @@
+
+
+
+1. Hoeveel personen zijn NPC’s?
+select count(person) from npc
+
+
+
+2. Hoeveel dieren zijn er in RubyQuest?
+select count(id) from animal
+
+
+
+3. Hoeveel steden zijn er aanwezig?
+select count(name) from city
+
+
+
+4. Met welke query kan je zien hoeveel schapen er in RubyQuest te vinden zijn?
+select count(type) from animal where type = 'Sheep'
+
+
+
+5. Hoeveel zeeslangen zijn er te vinden in RubyQuest?
+select count(type) from animal where type = 'Sea Snake'
+

@@ -1,0 +1,22 @@
+
+
+
+1. Met welke query kun je zien welke minimale snelheid de dieren hebben?
+select speed from animal order by speed
+
+
+
+2. Met welke query kun je zien wat de snelheid is van het snelste dier?
+select * from animal order by speed desc
+
+
+
+3. Met welke query kun je laten zien wat de minimale attack van een wapen is?
+select * from weapon order by attack
+
+
+
+4. Met welke query kun je laten zien hoeveel het duurste wapen kost?
+select * from weapon order by price desc
+
+

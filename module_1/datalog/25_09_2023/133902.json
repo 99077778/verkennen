@@ -1,0 +1,5 @@
+{
+    "query": "select * from teachers where code <= 3",
+    "resultcount": 0,
+    "result": []
+}

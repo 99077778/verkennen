@@ -1,0 +1,39 @@
+select * from teachers; #13:33:55@dvc-sd.db
+select firstName from teachers; #13:34:49@dvc-sd.db
+select lastName from teachers; #13:35:01@dvc-sd.db
+select firstName, lastName from teachers; #13:35:12@dvc-sd.db
+select * from teachers; #13:37:09@dvc-sd.db
+select * from teachers where id = 3; #13:37:24@dvc-sd.db
+select * from teachers where code = 'RVP'; #13:37:49@dvc-sd.db
+select * from teachers where code < 3; #13:38:57@dvc-sd.db
+select * from teachers where code <= 3; #13:39:02@dvc-sd.db
+select * from teachers where code = 3; #13:39:16@dvc-sd.db
+select * from teachers; #13:41:27@dvc-sd.db
+select firstName from teachers where id > 3; #13:41:50@dvc-sd.db
+select * from hero; #13:54:25@rubyquest.db
+select * from person; #13:56:00@rubyquest.db
+select * from person; #14:00:24@rubyquest.db
+select name from armor; #14:01:45@rubyquest.db
+select * from weapon; #14:02:23@rubyquest.db
+select name, attack from weapon; #14:02:40@rubyquest.db
+select * from creature
+; #14:03:27@rubyquest.db
+select name, health from creature
+; #14:04:23@rubyquest.db
+select * from person; #14:10:12@rubyquest.db
+select * from person where 7; #14:10:47@rubyquest.db
+select * from person where id = 7; #14:11:06@rubyquest.db
+select * from quest; #14:13:13@rubyquest.db
+select * from quest where gold = 0; #14:13:43@rubyquest.db
+select * from region; #14:14:42@rubyquest.db
+select * from city; #14:15:04@rubyquest.db
+select * from city where region = 1; #14:15:24@rubyquest.db
+select * from region; #14:45:04@rubyquest.db
+select * from animal; #14:45:40@rubyquest.db
+select * from animal
+; #14:46:11@rubyquest.db
+select * from animal; #14:48:12@rubyquest.db
+select * from animal where type = 'sheep'; #14:48:44@rubyquest.db
+select * from animal where type = 'Sheep'; #14:48:50@rubyquest.db
+select * from animal; #14:49:07@rubyquest.db
+select * from animal where owner > 0; #14:49:34@rubyquest.db

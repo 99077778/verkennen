@@ -1,0 +1,9 @@
+{
+    "query": "select count(type = 'Sea Snake') from animal",
+    "resultcount": 1,
+    "result": [
+        {
+            "count(type = 'Sea Snake')": 105
+        }
+    ]
+}

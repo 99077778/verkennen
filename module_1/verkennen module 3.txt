@@ -1,0 +1,30 @@
+
+
+
+1. Hoeveel steden zijn er in de regio Breach?
+
+select count(*) as aantal_steden from city where region = 5
+
+
+
+select count(city.id) as aantal_steden
+from city
+join region on city.region = region.id
+where region.id = 5;
+
+
+
+
+2. Hoe laat je zien wat browser zijn weapon is en zijn totale aanvalskracht daarmee?
+
+
+
+3. In welke stad vind je de persoon Mukovo?
+
+
+
+4. Welk persoon heeft meer dan 1 huisdier en welke huisdieren zijn dat?
+
+
+
+5. Met welke query kom je erachter in welke stad de baas van de regio South Groval zit?
