@@ -1,0 +1,30 @@
+{
+    "query": "SELECT * FROM product\nWHERE allergenen <> 'Gluten Apples';\n",
+    "resultcount": 3,
+    "result": [
+        {
+            "id": 3,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 4,
+            "naam": "Appelflap",
+            "soort": 4,
+            "prijs": 0.5,
+            "prijs_10": 8.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 6,
+            "naam": null,
+            "soort": "Poffertjes",
+            "prijs": 6.0,
+            "prijs_10": 4.0,
+            "allergenen": "Milk Eggs"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "query": "SELECT c.name\nFROM city AS c\nWHERE EXISTS (\n    SELECT 1\n    FROM region AS r\n    WHERE r.name IN ('North', 'South Groval') AND r.id = c.name\n);\n",
+    "resultcount": 0,
+    "result": []
+}

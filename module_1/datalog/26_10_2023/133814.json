@@ -1,0 +1,14 @@
+{
+    "query": "select * from product order by prijs desc\nlimit 1",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 5,
+            "naam": null,
+            "soort": "Appeltaart",
+            "prijs": 15.0,
+            "prijs_10": 12.0,
+            "allergenen": "Gluten Apples"
+        }
+    ]
+}

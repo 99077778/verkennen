@@ -1,0 +1,125 @@
+select * from region; #10:52:46@rubyquest.db
+select * from city; #10:55:45@rubyquest.db
+SELECT c.name
+FROM city AS c
+WHERE EXISTS (
+    SELECT 1
+    FROM region AS r
+    WHERE r.name IN ('North', 'South Groval') AND r.id = c.name
+);
+; #10:57:46@rubyquest.db
+SELECT c.name
+FROM city AS c
+WHERE EXISTS (
+    SELECT 1
+    FROM region AS r
+    WHERE r.name IN ('North', 'South Groval') AND r.id = c.name
+);
+; #10:59:37@rubyquest.db
+SELECT c.name
+FROM city AS c
+WHERE EXISTS (
+    SELECT 1
+    FROM region AS r
+    WHERE r.name IN ('North', 'South Groval') AND r.id = c.name
+);
+; #10:59:38@rubyquest.db
+SELECT c.name
+FROM city AS c
+WHERE EXISTS (
+    SELECT 1
+    FROM region AS r
+    WHERE r.name IN ('North', 'South Groval') AND r.id = c.name
+);
+; #10:59:39@rubyquest.db
+select * from product; #13:20:41@oliebollenkraam.db
+INSERT INTO product (id, soort, prijs, prijs_10, allergenen)
+
+   values
+      (5, 'Appeltaart', 15.0, 12.0, 'Gluten Apples'),
+
+      (6, 'Poffertjes', 6.0, 4.0, 'Milk Eggs');; #13:26:53@oliebollenkraam.db
+select * from product; #13:27:44@oliebollenkraam.db
+select * from product; #13:31:41@oliebollenkraam.db
+SELECT * FROM product
+ORDER BY prijs;
+; #13:32:56@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Apples';
+; #13:36:00@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Apples';
+; #13:36:00@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Apples';
+; #13:36:01@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Apples';
+; #13:36:01@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Apples';
+; #13:36:02@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Apples';
+; #13:36:02@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Apples';
+; #13:36:02@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Apples';
+; #13:36:03@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Apples';
+; #13:36:03@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Apples';
+; #13:36:03@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Apples';
+; #13:36:04@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Gluten Apples';
+; #13:36:11@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen <> 'Gluten Apples';
+; #13:36:12@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%Apples%';
+; #13:36:30@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%Apples%';
+; #13:36:31@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%Apples%';
+; #13:36:31@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%Apples%';
+; #13:36:31@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%apples%';
+; #13:36:35@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%apples%';
+; #13:36:36@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%apples%';
+; #13:36:36@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%apples%';
+; #13:36:36@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%Apples%';
+; #13:36:38@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%Apples%';
+; #13:36:38@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%Apples%';
+; #13:36:39@oliebollenkraam.db
+SELECT * FROM product
+WHERE allergenen NOT LIKE '%apples%';
+; #13:36:41@oliebollenkraam.db
+select * from product; #13:37:57@oliebollenkraam.db
+select * from product order by prijs desc; #13:38:06@oliebollenkraam.db
+select * from product order by prijs desc
+limit 1; #13:38:14@oliebollenkraam.db
