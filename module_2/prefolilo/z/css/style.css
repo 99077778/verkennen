@@ -4,7 +4,7 @@
 
 /* HEADER */
 
-ul {
+ul.header {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ ul {
   background-color: #333;
 }
 
-li {
+li.header {
   float: left;
 }
 
@@ -56,3 +56,48 @@ li a:hover {
     text-align: center;
   
   }
+
+
+
+
+
+
+
+/* main */
+
+body {
+  background-color: wheat;
+}
+
+
+
+
+h1.h1_title {
+  color: green;
+  text-decoration: underline;
+}
+
+
+
+p.boldtext {
+  font-weight: bold;
+}
+
+
+
+ul.ul1 {
+  color: limegreen;
+  font-weight: bold;
+}
+
+
+
+
+li.li2 {
+  font-weight: bold;
+}
+
+li.li3 {
+  font-weight: normal;
+  font-style: italic;
+}
