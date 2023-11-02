@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: orange;
+}
+
+
+p.blauw {
+    color: blue;
+    font-weight: bold;
+}
+
+p.geel {
+    color: yellow;
+    font-style: italic;
+}
+
+
+p.red {
+    color: red;
+    font-family: monospace;
+}
+
+p.geel-redbg {
+    color: yellow;
+    background-color: red;
+    font-style: italic;
+}
+
+
+
+p.red-underline {
+    color: red;
+    font-family: monospace;
+    text-decoration: underline;
+}
