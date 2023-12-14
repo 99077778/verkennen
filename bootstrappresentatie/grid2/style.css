@@ -1,0 +1,159 @@
+ul.navul {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: aqua;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.navli {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: [colom1-start] 25% [colom2-start] 25% [colom3-start] 25% [colom4-start] 25% [colom4-end];
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container>* {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+
+
+.grid-container {}
+
+.grid-container>header {
+  grid-column-start: colom1-start;
+  grid-column-end: colom4-end;
+
+}
+
+.grid-container>nav {
+  grid-column-start: colom1-start;
+  grid-column-end: colom4-end;
+
+}
+
+.grid-container>footer {
+  grid-column-start: colom1-start;
+  grid-column-end: colom4-end;
+
+}
+
+.grid-container>section {
+  grid-column-start: colom1-start;
+  grid-column-end: colom4-end;
+
+}
+
+.grid-container>aside {
+  grid-column-start: colom1-start;
+  grid-column-end: colom4-end;
+
+}
+
+
+
+
+
+
+@media screen and (min-width : 768px) {
+
+  .grid-container {}
+
+  .grid-container>header {
+    grid-column-start: colom1-start;
+    grid-column-end: colom4-end;
+  }
+
+  .grid-container>nav {
+    grid-column-start: colom1-start;
+    grid-column-end: colom2-start;
+    grid-row-start: 2;
+    grid-row-end: span 3;
+  }
+
+  .grid-container>footer {
+    grid-column-start: colom1-start;
+    grid-column-end: colom4-end;
+
+  }
+
+  .grid-container>section {
+    grid-column-start: colom2-start;
+    grid-column-end: colom4-end;
+
+  }
+
+  .grid-container>aside {
+    grid-column-start: colom1-start;
+    grid-column-end: colom4-end;
+
+  }
+
+}
+
+@media screen and (min-width : 992px) {
+
+  .grid-container {}
+
+  .grid-container>header {
+    grid-column-start: colom1-start;
+    grid-column-end: colom4-end;
+
+  }
+
+  .grid-container>nav {
+    grid-column-start: colom1-start;
+    grid-column-end: colom2-start;
+    grid-row-start: 2;
+    grid-row-end: span 3;
+
+  }
+
+  .grid-container>footer {
+    grid-column-start: colom1-start;
+    grid-column-end: colom4-end;
+
+  }
+
+  .grid-container>section {
+    grid-column-start: colom2-start;
+    grid-column-end: colom4-start;
+
+  }
+
+  .grid-container>aside {
+    grid-column-start: colom4-start;
+    grid-column-end: colom4-end;
+    grid-row-start: 2;
+    grid-row-end: span 3;
+
+  }
+}
