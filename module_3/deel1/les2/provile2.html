@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>New Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Profile form</h1>
+    <form id="form_profile">
+        <p>
+            <label>Leeftijd: </label>
+            <input type="text" name="input_leeftijd" id="input_leeftijd">
+        </p>
+    </form>
+    <div id="leeg" class="yellow">test</div>
+    <div id="buttons">
+        <button id="hier">klik hier</button>
+        <button id="maakLeegButton">Maak leeg</button>
+    </div>
+
+    <script>
+        function maakLeeg() {
+            leeg.innerText = "";
+        }
+
+        function handleHierButton() {
+            
+            leeg.innerText = 'niet klikken';
+
+            const currentYear = new Date().getFullYear();
+            const age = input_leeftijd.value;
+            const birthYear = currentYear - age;
+
+            leeg.innerText = 'Je bent geboren in ' + birthYear;
+            leeg.className = 'green';
+            if (age < 18){
+                leeg.className = 'red'
+            }
+
+        }
+
+
+
+        let y = 0;
+        for (let x = 0; x < 3; x++){
+            console.log('x is gelijk aan ${x}');
+            y++;
+            console.log('y is gelijk aan ${y}');
+        }
+
+
+        document.getElementById('maakLeegButton').addEventListener('click', maakLeeg);
+        document.getElementById('hier').addEventListener('click', handleHierButton);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1e js file</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>dit is mijn header</h1>
+    <div>hier staat nu wat text</div>
+    <div id="leeg">test</div>
+    <div id="buttons"><button id="hierButton">klik heir</button></div>
+    
+    <script>
+        console.log('hallo wereld');
+        console.log('dit is mijn eerste js');
+
+        function klikButtonActie(event){
+            counter++;
+            console.log('you peressed the button');
+            leeg.innerText = 'Hallo, Niet klikken';
+        }
+        if (counter == 10){
+            leeg.innerText = 'je hebt 10 keer gedtukt';
+        }
+        hierButton.addEventListener('click', klikButtonActie);
+        
+
+    </script>
+
+</body>
+</html>
